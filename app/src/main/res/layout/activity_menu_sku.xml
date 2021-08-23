@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECC7A3"
+    tools:context=".ui.main.sku.MenuSkuActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/ABBelajar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Toolbar
+                android:id="@+id/tb"
+                android:layout_width="match_parent"
+                android:theme="@style/AppTheme.AppBarOverlay"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/toolbar_title_belajar"
+                    android:layout_width="100dp"
+                    android:textSize="10pt"
+                    android:textColor="@color/white"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    style="@style/TextAppearance.Widget.AppCompat.Toolbar.Title"
+                    android:text="@string/SkuActivity"
+                    android:fontFamily="@font/ubuntu"
+                    android:layout_gravity="center"/>
+
+                <ImageButton
+                    android:id="@+id/onPressedBack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ic_back"
+                    />
+
+            </Toolbar>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toBottomOf="@+id/ABBelajar">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="330dp"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/bg_profil"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="parent"
+            app:layout_constraintStart_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ABBelajar"
+            tools:ignore="MissingConstraints">
+
+            <LinearLayout
+                android:id="@+id/LL1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:orientation="horizontal"
+                android:paddingLeft="16dp"
+                android:paddingTop="24dp"
+                android:paddingRight="16dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/ABBelajar"
+                tools:ignore="MissingConstraints">
+
+                <LinearLayout
+                    android:id="@+id/skuSiaga"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    tools:ignore="Suspicious0dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/bg_coklat"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="118dp"
+                            android:layout_height="68dp"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="16dp"
+                            android:paddingLeft="10dp"
+                            android:paddingTop="16dp"
+                            android:src="@drawable/siaga" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/ubuntu"
+                            android:paddingLeft="10dp"
+                            android:text="SKU Siaga"
+                            android:textColor="@color/white"
+                            android:textSize="13sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/skuPenggalang"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    tools:ignore="Suspicious0dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/bg_coklat"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="118dp"
+                            android:layout_height="68dp"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="16dp"
+                            android:paddingLeft="10dp"
+                            android:paddingTop="16dp"
+                            android:src="@drawable/penggalang" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/ubuntu"
+                            android:paddingLeft="10dp"
+                            android:text="SKU Penggalang"
+                            android:textColor="@color/white"
+                            android:textSize="13sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:orientation="horizontal"
+                android:paddingLeft="16dp"
+                android:paddingTop="24dp"
+                android:paddingRight="16dp"
+                android:paddingBottom="24dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/LL1"
+                tools:ignore="MissingConstraints">
+
+                <LinearLayout
+                    android:id="@+id/skuPenegak"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    tools:ignore="Suspicious0dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/bg_coklat"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="118dp"
+                            android:layout_height="68dp"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="16dp"
+                            android:paddingLeft="10dp"
+                            android:paddingTop="16dp"
+                            android:src="@drawable/penegak" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/ubuntu"
+                            android:paddingLeft="10dp"
+                            android:text="SKU Penegak"
+                            android:textColor="@color/white"
+                            android:textSize="13sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/skuPandega"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    tools:ignore="Suspicious0dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/bg_coklat"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="118dp"
+                            android:layout_height="68dp"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="16dp"
+                            android:paddingLeft="10dp"
+                            android:paddingTop="16dp"
+                            android:src="@drawable/pandega" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/ubuntu"
+                            android:paddingLeft="10dp"
+                            android:text="SKU Pandega"
+                            android:textColor="@color/white"
+                            android:textSize="13sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab_download"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|bottom"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="15dp"
+                android:foregroundGravity="center"
+                android:src="@drawable/ic_download"
+                app:borderWidth="0dp"
+                app:elevation="6dp"
+                app:fabCustomSize="50dp"
+                app:fabSize="normal" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

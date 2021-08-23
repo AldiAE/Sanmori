@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:title="Dashboard"
+        android:fontFamily="@font/ubuntu"
+        android:icon="@drawable/ic_action_home"
+        />
+
+    <item
+        android:id="@+id/setting"
+        android:title="Setting"
+        android:fontFamily="@font/ubuntu"
+        android:icon="@drawable/ic_action_setting"
+        />
+
+    <item
+        android:id="@+id/info"
+        android:title="Info"
+        android:fontFamily="@font/ubuntu"
+        android:icon="@drawable/ic_action_info"
+        />
+</menu>

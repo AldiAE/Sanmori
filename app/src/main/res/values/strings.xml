@@ -1,0 +1,139 @@
+<resources>
+    <string name="app_name">Sanmori Apps</string>
+
+    <string name="next">LANJUT</string>
+    <string name="skip">LEWATI</string>
+    <string name="start">MULAI</string>
+
+    <string name="slide_1_title">MENU BELAJAR</string>
+    <string name="slide_1_desc">Fitur Belajar Melalui Artikel, Video dan Suara</string>
+
+    <string name="slide_2_title">PENERJEMAH</string>
+    <string name="slide_2_desc">Fitur Menerjemahkan Teks ke Sandi dengan Mudah</string>
+
+    <string name="slide_3_title">QUIZ</string>
+    <string name="slide_3_desc">Fitur Untuk Latihan Pemahaman Sandi Morse</string>
+
+    <string name="slide_4_title">UJIAN SKU</string>
+    <string name="slide_4_desc">Fitur Bonus Untuk Catatan Pengujian SKU Pengganti Buku SKU</string>
+    <string name="name">Nama Lengkap</string>
+    <string name="tvJK">Jenis Kelamin</string>
+    <string name="lk">Laki-Laki</string>
+    <string name="pr">Perempuan</string>
+    <string name="age">Usia</string>
+    <string name="tvGolongan">Status Keanggotaan Pramuka</string>
+    <string name="ya">Ya</string>
+    <string name="tidak">Tidak</string>
+    <string name="dummy_name">-</string>
+    <string name="dummy_jk">-</string>
+    <string name="dummyage">-</string>
+    <string name="dummy_gol">-</string>
+    <string name="change">Ubah</string>
+    <string name="save">Tambah</string>
+    <string name="empty">Harus di isi</string>
+    <string name="dashboard">Dashboarad</string>
+    <string name="ProfilActivity">Profil User</string>
+    <string name="SettingActivity">Setting Aplikasi</string>
+    <string name="InputProfilActivity">Tambah Data User</string>
+    <string name="DashboarActivity">Dashboard</string>
+    <string name="addImage">Tambah Foto</string>
+    <string name="saveImg">Simpan</string>
+    <string name="deleteImg">Hapus</string>
+    <string name="update">Update</string>
+    <string name="cancel">Batal</string>
+    <string name="yes">Ya</string>
+    <string name="no">Tidak</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="BelajarActivity">Belajar</string>
+    <string name="QuizActivity">Quiz</string>
+    <string name="SkuActivity">SKU</string>
+    <string name="SuaraActivity">Suara</string>
+    <string name="PenerjemahActivity">Penerjemah</string>
+    <string name="VideoActivity">Video</string>
+    <string name="labelMorse">Ketik huruf atau angka</string>
+    <string name="fab_space">Spasi</string>
+    <string name="labelSandi">Masukkan kode sandi</string>
+    <string name="InfoActivity">Info Aplikasi</string>
+    <string name="geser">Geser untuk membaca modul</string>
+
+    <string name="nothing">Tidak Ada</string>
+    <string name="gol">Golongan</string>
+    <string name="scout_number">Nomer Tanda Anggota</string>
+    <string name="is_love">Suka Kegiatan Pramuka</string>
+    <string name="key_gol">Golongan</string>
+    <string name="key_age">Usia</string>
+    <string name="key_scout">phone</string>
+    <string name="key_love">Ya</string>
+    <string name="key_name">nama</string>
+    <string name="textProfil">Pengaturan Profil</string>
+    <string name="buttonSejarah">Materi Sejarah Pramuka</string>
+    <string name="materi_sejarah_pramuka">Materi tentang sejarah pramuka</string>
+    <string name="to_sejarah">Baca Materi</string>
+    <string name="materi_morse_pramuka">Materi tentang sandi morse pramuka</string>
+    <string name="playVideo1">Tips Belajar Menghafal Sandi Morse</string>
+    <string name="videoId1">pewyU-sdqDk</string>
+    <string name="videoId2">g3ePcAkx3Yw</string>
+    <string name="playVideo2">Sejarah Pramuka Dunia dan Indonesia</string>
+    <string name="play">Play</string>
+    <string name="stop">Stop</string>
+    <string name="deskripsiHuruf">Bentuk Sandi Morse dari Huruf tersebut adalah</string>
+    <string name="tab_text_1">HURUF</string>
+    <string name="tab_text_2"><![CDATA[ANGKA & TANDA BACA]]></string>
+    <string name="deskripsiAtb">Bentuk Sandi Morse dari Angka / Tanda Baca tersebut adalah</string>
+    <string name="SkuSiaga">SKU Siaga</string>
+    <string name="siaga_mula">Mula</string>
+    <string name="siaga_tata">Tata</string>
+    <string name="siaga_bantu">bantu</string>
+    <string name="DetailActivity">Detail Point</string>
+    <string name="submit">Submit</string>
+    <string name="message_cancel">batal</string>
+    <string name="message_delete">Yakin akan menghapus data ?</string>
+    <string name="SkuPenggalang">SKU Penggalang</string>
+    <string name="penggalang_ramu">RAMU</string>
+    <string name="penggalang_rakit">RAKIT</string>
+    <string name="penggalang_terap">TERAP</string>
+    <string name="SkuPenegak">SKU Penegak</string>
+    <string name="penegak_bantara">BANTARA</string>
+    <string name="penegak_laksana">LAKSANA</string>
+    <string name="SkuPandega">SKU Pandega</string>
+    <string name="textAlarm">Pengaturan Alarm</string>
+
+    <string name="one_time_alarm">Pengaturan Alarm Satu Kali</string>
+    <string name="alarm_date">Tanggal Alarm</string>
+    <string name="set_one_time_alarm">Set Alarm</string>
+    <string name="alarm_message">Pesan Alarm</string>
+    <string name="repeating_alarm">Pengaturan Alarm Berulang</string>
+    <string name="set_repeating_alarm">Set Alarm</string>
+    <string name="cancel_alarm">Batalkan Alarm</string>
+    <string name="alarm_time">Waktu Alarm</string>
+    <string name="sanmori">Aplikasi Sandi Morse Indonesia (SANMORI)</string>
+    <string name="deskripsisanmori">SANMORI adalah aplikasi pembelajaran sandi morse berbasis android. SANMORI di buat untuk mempermudah pengguna dalam hal ini anggota pramuka sebagai solusi media pembelajaran yang tidak membosankan karena berbasis aplikasi smartphone. Kemudahan yang didapat lumayan banyak karena fitur didalamnya juga lumayan komplit serta penggunaan yang relatif mudah. Selain itu, pembuatan aplikasi SANMORI ini juga sebagai project Tugas Akhir dari penulis sebagai prasyarat kelulusan untuk menyandang gelar Ahli Madya D3 Teknologi Informasi Politeknik Negeri Madiun. Penulis berharap dengan adanya aplikasi SANMORI dapat bermanfaat bagi saya dan para pengguna. Terimakasih atas perhatiannya.</string>
+    <string name="tutorial">Tutorial Penggunaan Aplikasi</string>
+    <string name="download">Panduan Penyelesaian SKU</string>
+    <string name="message_tutorial">Apakah ingin melihat tutorial penggunaan Aplikasi SANMORI ?</string>
+    <string name="download_tutorial">Apakah ingin mendownload file panduan penyelesaian sku ?</string>
+    <string name="quiz">Pilihan Tipe Soal</string>
+    <string name="desc_quiz">Pilih tipe soal yang akan dikerjakan!</string>
+    <string name="reading">READING</string>
+    <string name="listening">LISTENING</string>
+    <string name="masuk">masuk</string>
+
+    <string-array name="daftar_siaga">
+        <item>MULA</item>
+        <item>BANTU</item>
+        <item>TATA</item>
+    </string-array>
+
+    <string-array name="daftar_penegak">
+        <item>BANTARA</item>
+        <item>LAKSANA</item>
+    </string-array>
+
+    <string-array name="daftar_status">
+        <item>SELESAI</item>
+        <item>BELUM</item>
+    </string-array>
+
+
+</resources>

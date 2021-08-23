@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_profil"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ECC7A3"
+    tools:context=".ui.main.ProfilActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/ABProfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Toolbar
+            android:id="@+id/tbProfil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:layout_width="190dp"
+                android:textSize="10pt"
+                android:textColor="@color/white"
+                android:layout_height="40dp"
+                style="@style/TextAppearance.Widget.AppCompat.Toolbar.Title"
+                android:text="@string/textProfil"
+                android:fontFamily="@font/ubuntu"
+                android:gravity="center"
+                android:layout_gravity="center"/>
+
+            <ImageButton
+                android:id="@+id/onPressedBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:background="@drawable/ic_back"
+                />
+
+        </Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:id="@+id/Scrollv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_below="@+id/Scrollv"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/setting_holder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/bg_profil"
+        android:padding="16dp"
+        tools:ignore="ObsoleteLayoutParam">
+
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

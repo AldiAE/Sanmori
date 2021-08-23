@@ -1,0 +1,102 @@
+{
+   "__collections__":{
+      "quiz":{
+         "MORSE":{
+            "questions":{
+               "question1":{
+                  "answer":"A",
+                  "description":".- adalah huruf ?",
+                  "optD":"B",
+                  "optA":"A",
+                  "optB":"C",
+                  "optC":"D"
+               },
+			   "question2":{
+                  "answer":"P",
+                  "description":".--. adalah huruf ?",
+                  "optD":"C",
+                  "optA":"M",
+                  "optB":"P",
+                  "optC":"B"
+               },
+			   "question3":{
+                  "answer":"W",
+                  "description":".-- adalah huruf ?",
+                  "optD":"L",
+                  "optA":"K",
+                  "optB":"F",
+                  "optC":"W"
+               },
+			   "question4":{
+                  "answer":"Z",
+                  "description":"--.. adalah huruf ?",
+                  "optD":"U",
+                  "optA":"Z",
+                  "optB":"Q",
+                  "optC":"S"
+               },
+			   "question5":{
+                  "answer":"J",
+                  "description":".--- adalah huruf ?",
+                  "optD":"J",
+                  "optA":"X",
+                  "optB":"R",
+                  "optC":"I"
+               }
+            },
+            "title":"Soal Morse",
+            "__collections__":{
+               
+            }
+         },
+		 "UMUM":{
+            "questions":{
+               "question1":{
+                  "answer":"Praja Muda Karana",
+                  "description":"Apakah kepanjangan dari Pramuka ?",
+                  "optD":"Praka Muka Karana",
+                  "optA":"Praga Muda Karaca",
+                  "optB":"Praja Muda Karana",
+                  "optC":"Preja Mula Kakana"
+               },
+			   "question2":{
+                  "answer":"Tunas Kelapa",
+                  "description":"Apakah simbol dari Gerakn Pramuka!",
+                  "optD":"Tunas Muda",
+                  "optA":"Tunas Tua",
+                  "optB":"Tunas Kepala",
+                  "optC":"Tunas Kelapa"
+               },
+			   "question3":{
+                  "answer":"Sir Robert Stephenson Smyth Baden Powell of Gilwell",
+                  "description":"Siapa nama lengkap Bapak Pandu Dunia ?",
+                  "optD":"Sir Robert Stephenson Smyth Baden Powell of Gilwell",
+                  "optA":"Sir  Smyth Baden Powell of Gilwell",
+                  "optB":"Robert Stephenson Baden Powell of Gilwell",
+                  "optC":"Sir Stephenson Smyth Baden Powell"
+               },
+			   "question4":{
+                  "answer":"22 februari 1857",
+                  "description":"Kapan Baden Powell dilahirkan ?",
+                  "optD":"22 februari 1855",
+                  "optA":"23 februari 1857",
+                  "optB":"22 februari 1857",
+                  "optC":"21 februari 1856"
+               },
+			   "question5":{
+                  "answer":"Scouting for Boys",
+                  "description":"Apa judul buku yang ditulis oleh Baden Powell sebagai masterpiece kepramukaan ?",
+                  "optD":"Scouting to Boys",
+                  "optA":"Scouting from Boys",
+                  "optB":"Scouts for Boy",
+                  "optC":"Scouting for Boys"
+               }
+            },
+            "title":"Soal Umum",
+            "__collections__":{
+               
+            }
+         }
+      }
+   }
+}

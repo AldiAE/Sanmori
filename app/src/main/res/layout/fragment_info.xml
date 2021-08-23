@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    android:orientation="vertical"
+    tools:context=".ui.fragment.InfoFragment">
+
+    <ScrollView
+        android:id="@+id/ScrollDashboard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:id="@+id/activity_profil"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#ECC7A3">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/ABInputProfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Toolbar
+                android:id="@+id/tbInputProfil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/toolbar_title_info"
+                    android:layout_width="wrap_content"
+                    android:textSize="10pt"
+                    android:textColor="@color/white"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    style="@style/TextAppearance.Widget.AppCompat.Toolbar.Title"
+                    android:text="@string/InfoActivity"
+                    android:fontFamily="@font/ubuntu"
+                    android:layout_gravity="center"/>
+
+            </Toolbar>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_menu"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:ignore="ObsoleteLayoutParam">
+
+            <LinearLayout
+                android:id="@+id/setting_holder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical"
+                tools:context=".ProfilFragment">
+
+                <ImageButton
+                    android:id="@+id/setting_profil"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/logoonly" />
+            </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayoutSetting"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_menusetting"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/dp_20"
+                android:fontFamily="@font/ubuntu"
+                android:text="@string/sanmori"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:padding="6dp"
+                android:layout_marginTop="@dimen/dp_20"
+                android:fontFamily="@font/ubuntu"
+                android:text="@string/deskripsisanmori"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/ubuntu"
+                android:padding="6dp"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:text="Kontak yang dapat dihubungi:" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:padding="6dp"
+                android:fontFamily="@font/ubuntu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+        </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

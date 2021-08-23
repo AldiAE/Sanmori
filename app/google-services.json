@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "996747467568",
+    "project_id": "sanmorifcm",
+    "storage_bucket": "sanmorifcm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:996747467568:android:c37ec8abba5ed9f5e646f5",
+        "android_client_info": {
+          "package_name": "com.aldiavliar.sanmoriapps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "996747467568-pa5rdvv5if5kvbour8i7tukspjiv7iqp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDK0fB0dKHp5y82lc-JIUWIQFOvEaARKy8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "996747467568-pa5rdvv5if5kvbour8i7tukspjiv7iqp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

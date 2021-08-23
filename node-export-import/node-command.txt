@@ -1,0 +1,6 @@
+
+Export data dari db dahulu
+firestore-export --accountCredentials question.json --backupFile myDatabase.json
+
+edit data json kemudian import ke firebase lagi
+firestore-import --accountCredentials question.json --backupFile myDatabase.json

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:iconSpaceReserved="false">
+
+    <EditTextPreference
+        android:key="@string/key_name"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:summary="@string/nothing"
+        android:title="@string/name"
+        app:iconSpaceReserved="false" />
+    <EditTextPreference
+        android:key="@string/key_gol"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:summary="@string/nothing"
+        android:title="@string/gol"
+        app:iconSpaceReserved="false" />
+    <EditTextPreference
+        android:inputType="number"
+        android:key="@string/key_age"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:summary="@string/nothing"
+        android:title="@string/age"
+        app:iconSpaceReserved="false" />
+    <EditTextPreference
+        android:inputType="number"
+        android:key="@string/key_scout"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:summary="@string/nothing"
+        android:title="@string/scout_number"
+        app:iconSpaceReserved="false" />
+
+</PreferenceScreen>
